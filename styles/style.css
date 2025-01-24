@@ -155,6 +155,11 @@
   width: 40%;
 }
 
+/* main styles */
+main {
+  background-image: url(../assets/bg.png);
+}
+
 /* standard curriculum styles */
 
 .curriculum {
@@ -253,7 +258,7 @@
 
 .button-container {
   margin: 0 auto;
-  width: 10%;
+  width: 130px;
 }
 
 .arrow-btn {
@@ -261,7 +266,6 @@
   font-size: 1.3rem;
   font-weight: 900;
   border-radius: 50%;
-  /* text-align: center; */
   cursor: pointer;
   border: none;
   background: rgb(254, 163, 1);
@@ -275,7 +279,8 @@
 @media screen and (max-width: 576px) {
   .logo-text,
   .menu,
-  header .btn-secondary {
+  header .btn-secondary,
+  .button-container {
     display: none;
   }
   .menu-btn {
@@ -295,5 +300,11 @@
   }
   .banner-content {
     text-align: center;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .curriculum {
+    gap: 20px;
   }
 }
