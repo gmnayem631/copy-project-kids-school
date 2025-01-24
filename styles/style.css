@@ -1,0 +1,90 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared styles */
+.display-flex {
+  display: flex;
+}
+
+.btn-secondary {
+  width: 180px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: rgb(207, 131, 0);
+}
+
+/* Navigation bar styles */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 62px;
+}
+
+.logo-text {
+  color: rgb(17, 17, 17);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu ul {
+  list-style: none;
+  gap: 30px;
+}
+
+.menu ul li {
+  padding: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(254, 163, 1);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#home-color {
+  color: rgb(254, 163, 1);
+}
+#about-color {
+  color: rgb(1, 172, 253);
+}
+#fct-color {
+  color: rgb(1, 172, 253);
+}
+#adm-color {
+  color: rgb(93, 88, 239);
+}
